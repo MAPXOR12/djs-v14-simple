@@ -1,4 +1,4 @@
-Oh const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
+const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const { Colors } = require('discord.js');
 
 module.exports = {
