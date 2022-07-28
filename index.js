@@ -45,7 +45,7 @@ const token = client.config.token
 // Initializing the project
 require("./handler")(client);
 require('dotenv').config()
-require("./slash-register")(true)
+
 
 //ready
 client.on('ready', async () => {
