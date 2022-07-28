@@ -31,7 +31,7 @@ module.exports = {
      )
     .addComponents(
       new ButtonBuilder()
-        .setLabel("Support") // name buttons 
+        .setLabel("Support") //buttons 
         .setStyle(ButtonStyle.Link)
         .setEmoji("<:emoji_37:1002148377896685668>") //emoji
         .setURL("https://discord.gg/CtPQJsZnvV") // server link 
