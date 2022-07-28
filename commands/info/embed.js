@@ -1,4 +1,4 @@
-const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
+Oh const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const { Colors } = require('discord.js');
 
 module.exports = {
@@ -27,7 +27,7 @@ module.exports = {
         .setLabel("Invite Me")
         .setStyle(ButtonStyle.Link)
         .setEmoji("<:emoji_37:1002148377896685668>") //emoji
-        .setURL(``) // link invite Bot
+        .setURL(`https://discord.com/api/oauth2/authorize?client_id=914082317344059402&permissions=8&scope=bot`) // link invite Bot
      )
     .addComponents(
       new ButtonBuilder()
