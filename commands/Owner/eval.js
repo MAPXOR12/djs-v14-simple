@@ -1,6 +1,6 @@
 const { EmbedBuilder } = require("discord.js");
 const { post } = require("node-superfetch");
-const { OWNER_ID } = require("../../config.js")
+const { OWNER_ID } = require("../../config.js") // ID owner Config.js
 
 module.exports = {
     name: "eval",
