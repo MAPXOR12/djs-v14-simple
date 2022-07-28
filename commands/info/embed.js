@@ -26,15 +26,15 @@ module.exports = {
       new ButtonBuilder()
         .setLabel("Invite Me")
         .setStyle(ButtonStyle.Link)
-        .setEmoji("🔗")
-        .setURL(`https://discord.com/api/oauth2/authorize?client_id=903981158507900979&permissions=8&scope=bot%20applications.commands`)
+        .setEmoji("<:emoji_37:1002148377896685668>") //emoji
+        .setURL(``) // link invite Bot
      )
     .addComponents(
       new ButtonBuilder()
-        .setLabel("Support")
+        .setLabel("Support") // name buttons 
         .setStyle(ButtonStyle.Link)
-        .setEmoji("989105545946497055")
-        .setURL("https://discord.gg/UybeVq66hF")
+        .setEmoji("<:emoji_37:1002148377896685668>") //emoji
+        .setURL("https://discord.gg/CtPQJsZnvV") // server link 
     )
 
   
