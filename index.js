@@ -29,6 +29,8 @@ const client = new Client({
 
 module.exports = client;
 
+ this.slashCommands = new Collection();
+
 // Global Variables
 client.commands = new Collection();
 
