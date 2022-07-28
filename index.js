@@ -29,6 +29,7 @@ module.exports = client;
 
 // Global Variables
 client.commands = new Collection();
+client.slashcommand = new Collection();
 
 client.config = require("./config.js");
 
