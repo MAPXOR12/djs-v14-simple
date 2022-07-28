@@ -1,6 +1,6 @@
 
 const { CommandInteraction } = require("discord.js");
-const BOT = require("../../../handlers/Client");
+const BOT = require("../index.js");
 
 module.exports = {
   // options
