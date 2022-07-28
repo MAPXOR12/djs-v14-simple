@@ -33,6 +33,7 @@ client.commands = new Collection();
 client.config = require("./config.js");
 
 const mongoose = require("mongoose");
+const chalk = require('chalk')
 const prefix = client.config.prefix
 const token = client.config.token
 
