@@ -34,6 +34,9 @@ client.config = require("./config.js");
 
 const mongoose = require("mongoose");
 const chalk = require('chalk')
+const { SlashCommandBuilder } = require("@discordjs/builders")
+const os = require("os")
+
 const prefix = client.config.prefix
 const token = client.config.token
 
