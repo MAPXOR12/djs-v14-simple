@@ -25,7 +25,7 @@ const client = new Client({
       ],
 });
 
-require("./slash-register")(true)
+
 
 module.exports = client;
 
@@ -45,7 +45,9 @@ const token = client.config.token
 // Initializing the project
 require("./handler")(client);
 require('dotenv').config()
+require("./slash-register")(true)
 
+//ready
 client.on('ready', async () => {
   console.log(`${client.user.tag} is now Onlone! Prefix: ${client.config.prefix}`.bgGreen);
 });
