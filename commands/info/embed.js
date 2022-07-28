@@ -10,12 +10,12 @@ module.exports = {
     const help = new EmbedBuilder()
       .setTitle(`${client.user.username} Help`)
       .setColor("Blue")
-      .setDescription(`types of the embeds`) 
+      .setDescription(`coded by **MapXoor** [githup](https://githup.com/MAPXOR12)`) 
       .addFields(
-		{ name: 'Regular field title', value: 'Some value here' },
+		{ name: 'Medrator Command', value: 'Soon' },
 		{ name: '\u200B', value: '\u200B' },
-		{ name: 'Inline field title', value: 'Some value here', inline: true },
-		{ name: 'Inline field title', value: 'Some value here', inline: true },
+		{ name: 'info command', value: 'ping , help', inline: true },
+		{ name: 'Owner command', value: 'eval', inline: true },
 	)
 
       .setTimestamp()
