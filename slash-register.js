@@ -26,8 +26,8 @@ module.exports = async (updateCommands) => {
 
 	await handleCommands(commandFolders, "./Commands/Slash")
 
-	const clientId = "956345939130482750"
-	const guildId = "939674946379083847"
+	const clientId = "798426340734271488"
+	const guildId = "872563022344892426"
 
 	const rest = new REST({ version: "10" }).setToken(token)
 
