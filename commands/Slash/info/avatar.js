@@ -3,7 +3,7 @@ module.exports = {
     description: 'Shows (someone)\'s Avatar',
     /**
      * 
-     * @param {import('../../../structures/lib/DiscordClient')} client 
+     * @param {import('./index.js')} client 
      * @param {import('discord.js').CommandInteraction} interaction
      */
     run: (client, interaction) => {
