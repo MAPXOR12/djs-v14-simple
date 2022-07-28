@@ -9,9 +9,9 @@ client.on("ready", () => {
 		{ name: `discord.js v14 | Code by MapXor ^`, type: 5 } // COMPETING
 	];
 	const status = [
-		'online',
-		'dnd',
-		'idle'
+		'Online',
+		'Online',
+		'Online'
 	];
 	let i = 0;
 	setInterval(() => {
