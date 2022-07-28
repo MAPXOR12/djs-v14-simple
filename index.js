@@ -25,6 +25,8 @@ const client = new Client({
       ],
 });
 
+require("./slash-register")(true)
+
 module.exports = client;
 
 // Global Variables
