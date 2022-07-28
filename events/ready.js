@@ -6,7 +6,7 @@ client.on("ready", () => {
 		{ name: `${client.guilds.cache.size} Servers`, type: 2 }, // LISTENING
 		{ name: `${client.channels.cache.size} Channels`, type: 0 }, // PLAYING
 		{ name: `${client.users.cache.size} Users`, type: 3 }, // WATCHING
-		{ name: `Discord.js v14`, type: 5 } // COMPETING
+		{ name: `discord.js v14 | Code by MapXor ^`, type: 5 } // COMPETING
 	];
 	const status = [
 		'online',
